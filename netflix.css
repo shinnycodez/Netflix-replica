@@ -1,0 +1,87 @@
+.logo{
+    height: 73px;
+    width: 198px;
+}
+.background{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-image: url(banner.png);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+}
+.main{
+    padding: 0px;
+}
+.black{
+    background-color:rgb(0,0,0,0.5);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.navbar{
+    width: 67%;
+    height: 14%;
+}
+.custom-size{
+    font-size: 25px;
+}
+.custom-text-area{
+    background-color: rgb(0, 0 ,0,0.5);
+}
+.custom-text-area:focus,.custom-text-area:active{
+    background-color: rgb(0, 0 ,0,0.5);
+    border: 1px solid #ccc;
+}
+.custom-text-area::placeholder{
+    color: #ccc;
+}
+body{
+    background-color: black;
+}
+.custom-image-1{
+    width: 469px;
+}
+.custom-image-1{
+    width: 469px;
+}
+.custom-image-2{
+    width: 400px;
+}
+.heading{
+    font-size: 50px;
+}
+.row-border{
+    border-top: 4px solid grey;
+}
+.btn-custom{
+    color: white;
+    background-color:	rgb(64,64,64);
+    width: 75%;
+    text-align: left;
+    height: 80px;
+}
+@media(max-width:769px){
+    .btn-custom{
+        width: 100%;
+        height: 100px;
+    }
+}
+.btn-custom:hover,.btn-custom:active,.btn-custom:focus{
+    color: white;
+    background-color:	rgb(64,64,64);
+    width: 75%;
+    text-align: left;
+    height: 80px;
+}
+.collapse-custom{
+    background-color:rgb(64,64,64);
+    color: white;
+}
+.custom-height{
+    height: 400px;
+}
