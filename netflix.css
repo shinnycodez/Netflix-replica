@@ -72,6 +72,19 @@ body{
     .sign-in{
         display: block;
     }
+.logo{
+    width: 117px;
+    height: 37px;
+}
+.navbar{
+    width: 90%;
+}
+.background,.black{
+    height: 70vh;
+}
+.custom-col{
+    justify-content: center;
+}
 }
 .btn-custom:hover,.btn-custom:active,.btn-custom:focus{
     color: white;
